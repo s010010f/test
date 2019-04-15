@@ -1,6 +1,6 @@
 drop database if exists testdb2;
 create database testdb2;
-user testdb2;
+use testdb2;
 create table test_table(
 	user_id int,
 	user_name varchar(255),
