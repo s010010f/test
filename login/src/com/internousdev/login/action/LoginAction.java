@@ -10,7 +10,7 @@ public class LoginAction extends ActionSupport{
 	private String name;
 	private String password;
 
-	public String excute() throws SQLException{
+	public String execute() throws SQLException{
 		String ret = ERROR;
 
 		LoginDAO dao = new LoginDAO();
